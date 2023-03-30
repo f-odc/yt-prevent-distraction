@@ -1,0 +1,47 @@
+/* Remove Recommendations */
+#contents.ytd-rich-grid-renderer {
+    visibility: hidden;
+}
+
+#guide-inner-content {
+    visibility: hidden;
+}
+
+#scroll-container {
+    visibility: hidden;
+}
+
+#right-arrow-button{
+    visibility: hidden;
+}
+
+#items {
+    visibility: hidden;
+}
+
+#secondary {
+    visibility: hidden;
+}
+
+#guide-links-primary {
+    visibility: hidden;
+}
+
+#guide-links-secondary {
+    visibility: hidden;
+}
+
+/* Remove Recommendations on Search */
+ytd-shelf-renderer{
+    display: none !important;
+}
+
+/* Remove Shorts */
+ytd-reel-shelf-renderer {
+    display:none !important
+}
+
+/* Remove Ads */
+ytd-promoted-video-renderer {
+    display: none !important;
+}

@@ -1,0 +1,29 @@
+#guide-inner-content {
+    visibility: hidden;
+}
+
+#right-arrow-button{
+    visibility: hidden;
+}
+
+#secondary {
+    visibility: hidden;
+}
+
+#guide-links-primary {
+    visibility: hidden;
+}
+
+#guide-links-secondary {
+    visibility: hidden;
+}
+
+/* Remove Shorts */
+ytd-reel-shelf-renderer {
+    display:none !important
+}
+
+/* Remove Ads */
+ytd-promoted-video-renderer {
+    display: none !important;
+}
