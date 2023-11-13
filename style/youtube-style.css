@@ -41,6 +41,10 @@ ytd-reel-shelf-renderer {
     display:none !important
 }
 
+ytd-rich-item-renderer {
+    display:none !important
+}
+
 /* Remove Ads */
 ytd-promoted-video-renderer {
     display: none !important;
