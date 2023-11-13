@@ -9,6 +9,9 @@ const youtube_watch = 'https://www.youtube.com/watch?v='
  * @returns true if url matches channel url, else false
  */
 function matchesChannelURL(url){
+    if (url === null){
+        return false
+    }
     // youtube startpage
     if (url === youtube_startpage){
         return false
@@ -32,6 +35,9 @@ function matchesChannelURL(url){
  */
 const observer = new MutationObserver(() => {
     var currentURL = window.location.href
+    if (currentURL === null){
+        return
+    }
 
     // youtube startpage
     if (currentURL === youtube_startpage){
