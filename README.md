@@ -5,3 +5,7 @@ Prevent Distraction is a Chrome Extension to hide some distracting content on Yo
 ## Load Extension
 
 To load the unpacked extension in Chrome follow these steps [here](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics#load-unpacked).
+
+## Result 
+
+![Prevent Distraction Showcase](prevent_distraction.png)
